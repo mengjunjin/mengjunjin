@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>LOL Shopping</title>
+
+  
+   
+     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="./css/LOLShopping.css">
+<style>
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #3e4d5c;
+
+}
+
+</style>
+
+  </head>
+<body>
+<!-- 顶部 -->
+<div class="header">
+  <div class="header-nav">
+    <div class="header-nav-left">
+      <ul>
+        <a href="#"><li>游戏币交易</li></a>
+        <i>|</i>
+        <a href="#"><li>Q币充值</li></a>
+        <i>|</i>
+        <a href="#"><li>VIP玩家</li></a>
+      </ul>
+    </div>
+    <div class="header-nav-right">
+      <ul>
+        <a href="./html/gouwuche.html"><li class="shopcar">购物车</li></a>
+        <i>|</i>
+        <a href="#"><li>官方论坛</li></a>
+        <i>|</i>
+        <a href="#"><li>消息通知</li></a>
+        <i>|</i>
+        <a href="./html/zhuce.html"><li>注册</li></a>
+        <i>|</i>
+        <a href="./html/denglv.html"><li>登录</li></a>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 导航栏 -->
+<div class="containter">
+  <div class="logo"></div>
+  <div class="logo-grand" style=" float: left;
+    margin-left: 40px;
+"></div>
+  <div class="containter-nav">
+    <ul>
+        <a href="./index.html"><li class="actives">首页</li></a>
+        <a href="./html/LOLzhoubian.html"><li>周边商城</li></a>
+        <a href="./html/LOLpifu.html"><li>英雄皮肤</li></a>
+        <a href="./html/LOLfuwu.html"><li>服务</li></a>
+        <a href="./html/LOLgeren.html"><li>个人中心</li></a>
+    </ul>
+  </div>
+  <div class="search-nav">    
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true" style="font-size: 16px;"></span></button>
+      </span>
+    </div>
+  </div>
+</div>
+
+
+<!-- 轮播图 -->
+<div class="content">
+    <div class="content-site">
+        <ul>
+            <a href=""><li class="li-shopping"><span class="i-sp isp-1"></span><span class="word-isp">全部游戏</span><span class="i-sp i-box"></span> </li></a>
+            <a href=""><li class="li-shopping"><span class="i-sp isp-1"></span><span class="word-isp">热门游戏</span><span class="i-sp i-box"></span> </li></a>
+            <a href=""><li class="li-shopping"><span class="i-sp isp-1"></span><span class="word-isp">角色扮演</span><span class="i-sp i-box"></span> </li></a>
+            <a href=""><li class="li-shopping"><span class="i-sp isp-1"></span><span class="word-isp">竞技游戏</span><span class="i-sp i-box"></span> </li></a>
+            <a href=""><li class="li-shopping"><span class="i-sp isp-1"></span><span class="word-isp">休闲游戏</span><span class="i-sp i-box"></span> </li></a>
+            <a href=""><li class="li-shopping"><span class="i-sp isp-1"></span><span class="word-isp">网页游戏</span><span class="i-sp i-box"></span> </li></a>
+            
+        </ul>
+    </div>
+    <div id="carousel-example-generic" class="carousel slide content-carousel" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="http://ossweb-img.qq.com/images/daojushop/uploads/ad/201809/20180917193516_867481.jpg" alt="...">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://ossweb-img.qq.com/images/daojushop/uploads/ad/201809/20180917112656_231818.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://game.gtimg.cn/images/daojushop/uploads/ad/201809/20180914150342_389788.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+
+
+
+
+<!-- 热卖 -->
+<div class="home-box">
+    <div class="home-title">
+        <h5>热门商品</h5>
+        <a href="#">更多></a>
+    </div>
+    <div class="lite-box ">
+        
+        <a href="">
+            <div class="goods-box">
+                <div class="goods-img"><img src="https://game.gtimg.cn/images/daoju/app/lol/medium/2-157010-9.jpg?_t=1536732826"></div>      
+                <strong>奥德赛 亚索</strong>
+                <div class="t2">
+                    Q币价：
+                    <span class="color-red" style="color: red;">79.00&nbspQ币</span>                
+                </div>
+                <div class="t2">
+                    微信价：
+                    &nbsp&nbsp&nbsp<span class="color-red" style="color: red;">&nbsp&nbsp75.00</span>                
+                </div>
+                <div class="title-3">立即购买</div> 
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-box">
+                <div class="goods-img "><img src="https://game.gtimg.cn/images/daoju/app/lol/medium/2-37009-9.jpg?_t=1536719847"></div>      
+                <strong>奥德赛 娑娜</strong>
+                <div class="t2">
+                    Q币价：
+                    <span class="color-red" style="color: red;">79.00&nbspQ币</span>                
+                </div>
+                <div class="t2">
+                    微信价：
+                    &nbsp&nbsp&nbsp<span class="color-red" style="color: red;">&nbsp&nbsp75.00</span>                
+                </div>
+                <div class="title-3">立即购买</div> 
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-box">
+                <div class="goods-img "><img src="https://game.gtimg.cn/images/daoju/app/lol/medium/2-115007-9.jpg?_t=1536724535"></div>      
+                <strong>奥德赛 吉格斯</strong>
+                <div class="t2">
+                    Q币价：
+                    <span class="color-red">79.00&nbspQ币</span>                
+                </div>
+                <div class="t2">
+                    微信价：
+                    &nbsp&nbsp&nbsp<span class="color-red" >&nbsp&nbsp75.00</span>                
+                </div>
+                <div class="title-3">立即购买</div> 
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-box">
+                <div class="goods-img "><img src="https://game.gtimg.cn/images/daoju/app/lol/medium/2-54016-9.jpg?_t=1536723503"></div>      
+                <strong>奥德赛 墨菲特</strong>
+                <div class="t2">
+                    Q币价：
+                    <span class="color-red" >79.00&nbspQ币</span>                
+                </div>
+                <div class="t2">
+                    微信价：
+                    &nbsp&nbsp&nbsp<span class="color-red" >&nbsp&nbsp75.00</span>                
+                </div>
+                <div class="title-3">立即购买</div> 
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-box">
+                <div class="goods-img "><img src="https://game.gtimg.cn/images/daoju/app/lol/medium/2-91012-9.jpg?_t=1535948460"></div>      
+                <strong>玉剑传说 无影</strong>
+                <div class="t2">
+                    Q币价：
+                    <span class="color-red" >99.00&nbspQ币</span>                
+                </div>
+                <div class="t2">
+                    微信价：
+                    &nbsp&nbsp&nbsp<span class="color-red" >&nbsp&nbsp94.05</span>                
+                </div>
+                <div class="title-3">立即购买</div> 
+            </div>
+        </a>
+
+        <a href="">
+            <div class="goods-box">
+                <div class="goods-img "><img src="https://game.gtimg.cn/images/daoju/app/lol/medium/2-59005-9.jpg?_t=1498615282"></div>      
+                <strong>吕布 奉先</strong>
+                <div class="t2">
+                    Q币价：
+                    <span class="color-red" >199.00&nbspQ币</span>                
+                </div>
+                <div class="t2">
+                    微信价：
+                    &nbsp&nbsp&nbsp<span class="color-red">&nbsp&nbsp189.00</span>                
+                </div>
+                <div class="title-3">立即购买</div> 
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-box">
+                <div class="goods-img "><img src="https://game.gtimg.cn/images/daoju/app/lol/medium/2-202004-9.jpg?_t=1511774893"></div>      
+                <strong>源计划： 升华 烬</strong>
+                <div class="t2">
+                    Q币价：
+                    <span class="color-red" >79.00&nbspQ币</span>                
+                </div>
+                <div class="t2">
+                    微信价：
+                    &nbsp&nbsp&nbsp<span class="color-red" >&nbsp&nbsp75.00</span>                
+                </div>
+                <div class="title-3">立即购买</div> 
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-box">
+                <div class="goods-img "><img src="https://game.gtimg.cn/images/daoju/app/lol/medium/2-157001-9.jpg"></div>      
+                <strong>西部牛仔 亚索</strong>
+                <div class="t2">
+                    Q币价：
+                    <span class="color-red" >69.00&nbspQ币</span>                
+                </div>
+                <div class="t2">
+                    微信价：
+                    &nbsp&nbsp&nbsp<span class="color-red">&nbsp&nbsp65.00</span>                
+                </div>
+                <div class="title-3">立即购买</div> 
+            </div>
+        </a>  
+        <a href="">
+            <div class="goods-box">
+                <div class="goods-img "><img src="https://game.gtimg.cn/images/daoju/app/lol/medium/2-157009-9.jpg?_t=1497524531"></div>      
+                <strong>黑暗使者 亚索</strong>
+                <div class="t2">
+                    Q币价：
+                    <span class="color-red">99.00&nbspQ币</span>                
+                </div>
+                <div class="t2">
+                    微信价：
+                    &nbsp&nbsp&nbsp<span class="color-red">&nbsp&nbsp94.00</span>                
+                </div>
+                <div class="title-3">立即购买</div> 
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-box">
+                <div class="goods-img "><img src="https://game.gtimg.cn/images/daoju/app/lol/medium/2-51006-9.jpg"></div>      
+                <strong>铁血狙击手 凯特琳</strong>
+                <div class="t2">
+                    Q币价：
+                    <span class="color-red">69.00&nbspQ币</span>                
+                </div>
+                <div class="t2">
+                    微信价：
+                    &nbsp&nbsp&nbsp<span class="color-red" style="color: red;">&nbsp&nbsp65.00</span>                
+                </div>
+                <div class="title-3">立即购买</div> 
+            </div>
+        </a>
+        
+    </div>
+</div>
+
+
+
+
+
+<!-- 周边商场 -->
+<div class="home-box">
+    <div class="home-title">
+        <h5>周边商场</h5>
+        <a href="#">更多></a>
+    </div>
+    <div class="zhoubian-box">
+        <a href="">
+            <div class="goods-zhoubian">
+                <div class="img-zhoubian">
+                <img src="http://ossweb-img.qq.com/images/daojushop/zb/ad/201808/20180830170801_953806.jpg" alt="">
+                </div>
+                <div class="brand">
+                <p>洛与霞 手办</p>
+                <span class="color-red">￥299</p>
+
+                </div>    
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-zhoubian">
+                <div class="img-zhoubian">
+                <img src="http://ossweb-img.qq.com/images/daojushop/zb/ad/201809/20180919145944_841383.jpg" alt="">
+                </div>
+                <div class="brand">
+                <p>广寒仙子 戴安娜 手办</p>
+                <span class="color-red">￥150</p>
+
+                </div>    
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-zhoubian">
+                <div class="img-zhoubian">
+                <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201711/20171117092153_66432.jpg" alt="">
+                </div>
+                <div class="brand">
+                <p>锤石 手办</p>
+                <span class="color-red">￥150</p>
+
+                </div>    
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-zhoubian">
+                <div class="img-zhoubian">
+                <img src="http://ossweb-img.qq.com/images/daojushop/zb/ad/201809/20180914104455_757975.jpg" alt="">
+                </div>
+                <div class="brand">
+                <p>电玩战魂 赫卡里姆 手办</p>
+                <span class="color-red">￥150</p>
+
+                </div>    
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-zhoubian">
+                <div class="img-zhoubian">
+                <img src="http://ossweb-img.qq.com/images/daojushop/zb/ad/201809/20180906233028_191362.jpg" alt="">
+                </div>
+                <div class="brand">
+                <p>电玩迷你手办套餐 手办</p>
+                <span class="color-red">￥220</p>
+
+                </div>    
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-zhoubian">
+                <div class="img-zhoubian">
+                <img src="http://ossweb-img.qq.com/images/daojushop/zb/ad/201809/20180918164241_991282.jpg" alt="">
+                </div>
+                <div class="brand">
+                <p>海牛阿福款毛绒 限量版</p>
+                <span class="color-red">￥108</p>
+
+                </div>    
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-zhoubian">
+                <div class="img-zhoubian">
+                <img src="http://ossweb-img.qq.com/images/daojushop/zb/ad/201809/20180918163902_464283.jpg" alt="">
+                </div>
+                <div class="brand">
+                <p>内瑟斯收藏款毛绒</p>
+                <span class="color-red">￥108</p>
+
+                </div>    
+            </div>
+        </a>
+        <a href="">
+            <div class="goods-zhoubian">
+                <div class="img-zhoubian">
+                <img src="http://ossweb-img.qq.com/images/daojushop/zb/ad/201807/20180724154555_334310.jpg" alt="">
+                </div>
+                <div class="brand">
+                <p>源计划 菲奥娜 T恤</p>
+                <span class="color-red">￥150</p>
+
+                </div>    
+            </div>
+        </a>
+    </div>
+</div>
+
+
+
+
+<!-- 底部 -->
+<div class="button">
+    <div class="button-row">
+        <div class=" button-logo">
+        <div class="button-img"></div>
+        
+        </div>
+        <span class="button-line"></span>
+        <div class="button-nav" style="float: left;">
+            <ul> 
+                <li><a href=""><span class="span-ic ic-1"></span><span class="button-word">购物指南</span></a></li>
+                <li><a href=""><span class="span-ic ic-2"></span><span class="button-word">常见操作</span></a></li>
+                <li><a href=""><span class="span-ic ic-3"></span><span class="button-word">关于我们</span></a></li>        
+
+            </ul>
+            <ul style="padding-left: 130px;"> 
+                <li><a href=""><span class="span-ic ic-4"></span><span class="button-word">配送方式</span></a></li>
+                <li><a href=""><span class="span-ic ic-5"></span><span class="button-word">售后服务</span></a></li>                      
+            </ul>
+        </div>
+        <span class="button-line"></span>
+        <div class="">
+            <div class="erweima" style="float: left;margin-left: 70px;"><img src="http://ossweb-img.qq.com/upload/webplat/info/lol/201510/1445405844_1436653066_13927_imageAddr.jpg" class="img-ewm"><p class="p-title">英雄联盟公众号</p></div>
+            <div class="erweima" style="float: left;margin-left: 70px;"><img src="http://game.gtimg.cn/images/lol/app/ewm-1.png" class="img-ewm"><p class="p-title">掌上英雄联盟APP</p></div>
+        </div>
+    </div>
+    <div class="button-content">
+        <span class="words-button">LOL互动娱乐</span>
+        <span class="line"></span>
+        <span class="words-button">广告服务</span>
+        <span class="line"></span>
+        <span class="words-button">游戏招聘</span>
+        <span class="line"></span>
+        <span class="words-button">游戏客服</span>
+        <span class="line"></span>
+        <span class="words-button">游戏客服</span>
+        <span class="line"></span>
+        <span class="words-button">游戏地图</span>
+        <span class="line"></span>
+        <span class="words-button" style="display: block;">粤网文[2014]0633-233号 增值电信业务经营许可证：粤B2-20090059 B2-20090028 违法和不良信息举报电话：0755-83767606</span>
+        <span class="words-button" style="display: block;">COPYRIGHT © 1998 – 2018 TENCENT. ALL RIGHTS RESERVED.</span>
+       <span></span>
+    </div>    
+</div>
+</body>
+
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">

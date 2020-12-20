@@ -1,0 +1,85 @@
+.body-content{
+	    background: #f5f5f5;
+    height: 880px;
+}
+.content-fuwu{
+	width: 1190px;
+    margin: 0 auto;
+}
+.zizhu{
+	    font-size: 19px;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 2px solid #36ab87;
+}
+.lite-pifu{
+	width: 1190px;
+      float: left;
+    margin: 15px 0 50px;
+
+}
+.lite-content{
+	    float: left;
+    width: 25%;
+    text-align: center;
+        height: 165px;
+  	padding-top: 20px;
+    background: #fff;
+}
+.tubiao-p{
+	  padding-top: 7px;
+    font-size: 16px;
+}
+.li-1{
+	border-bottom: 1px solid #f5f5f5;
+	    border-right: 1px solid #f5f5f5;
+}
+.li-2{
+	    border-right: 1px solid #f5f5f5;
+}
+a:hover{
+	text-decoration: none;
+
+}	
+.i-cp{
+	background: url(http://js02.daoju.qq.com/common/images/icon.png) no-repeat;
+	float: left;
+    margin: 0 10px 0 24px;
+    width: 20px;
+    height: 20px;
+}
+.cp-1{
+	    
+           background-position: -120px -266px;
+}
+.cp-2{
+	    background-position: -60px -267px;
+}
+.cp-3{
+	    background-position: -90px -267px;
+}
+.cp-4{
+	background-position: -30px -267px;
+}
+.cp-word{
+	float: left;
+    font-size: 15px;
+}
+.cp-words{
+	font-size: 13px;
+	    float: left;
+    margin-left: 55px;
+}
+.lite-content ul li{
+	height: 25px;
+
+}
+p:hover{
+	color: red;
+}
+a li:hover{
+	color: #f74a4a;
+}
+a span:hover{
+	color: #f74a4a;
+}
